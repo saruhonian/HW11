@@ -1,0 +1,65 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  min-height: 40px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: var(--border-radius);
+  background: var(--accent-dark-color);
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.btn_bordered {
+  border-color: var(--accent-dark-color);
+  background: transparent;
+}
+.btn_bordered:hover {
+  background: var(--accent-dark-color);
+}
+.btn:hover {
+  border-color: var(--accent-dark-color);
+  background: transparent;
+}
+
+.send__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  min-height: 40px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: var(--border-radius);
+  background: var(--accent-dark-color);
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 1.5;
+  cursor: pointer;
+  border-color: var(--accent-dark-color);
+}
+
+.record__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 370px;
+  min-height: 40px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: var(--border-radius);
+  background: var(--accent-dark-color);
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 1.5;
+  cursor: pointer;
+  border-color: var(--accent-dark-color);
+}
+
+/*# sourceMappingURL=btn.css.map */
